@@ -1,0 +1,16 @@
+var alfa = 1;
+var beta = 2;
+var gamma = 3;
+var teta = 4;
+
+var delta = alfa
+var omega = beta
+var zeta = gamma
+
+
+alfa = beta;
+beta = zeta;
+gamma = teta;
+teta = delta;
+
+console.log(alfa,beta,gamma,teta);
